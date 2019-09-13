@@ -1,0 +1,140 @@
+.bg-alpha {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.heading-wrapper {
+	background-color: #a81212;
+	transform: skew(-20deg);
+	padding: 10px;
+	color: #fff !important;
+	font-family: 'BebasNeue';
+	text-align: center;
+	font-size: 21px;
+}
+
+.form-text {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: #a81212 solid 2px;
+  border-radius: 0px;
+  width: 100%;
+}
+
+#search-box:focus{
+  outline: none;
+}
+
+.btn-width {
+  width: 150px;
+}
+
+.product-highlight-links {
+  text-decoration: none !important;
+  color: #a81212;
+}
+
+.product-highlight-links:hover {
+  color: #a81212;
+}
+
+.pagination > li > a
+{
+    background-color: white;
+    color: #a81212;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #a81212;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #a81212;
+    border: solid 1px #a81212;
+}
+
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #a81212;
+  border-color: #a81212;
+}
+
+/* The cb-container */
+.cb-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.cb-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.cb-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.cb-container input:checked ~ .checkmark {
+  background-color: #a81212;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.cb-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.cb-container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.bg-custom-red {
+  background-color: #a81212 !important;
+}

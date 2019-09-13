@@ -1,0 +1,7 @@
+.bg-custom-red {
+  background-color: #a81212 !important;
+}
+
+table.dataTable thead th {
+  white-space: nowrap
+}
